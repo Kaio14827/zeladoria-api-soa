@@ -12,6 +12,22 @@
 
 
 
+## 📋 Ficha da CitizenTech
+
+| Campo | Detalhe |
+| :--- | :--- |
+| **Nome da CitizenTech** | Zeladoria Urbana API |
+| **Cidade e bairro** | São Paulo - SP (escopo municipal) |
+| **Cidadão beneficiado** | Moradores da cidade, pedestres e motoristas que convivem com falhas de infraestrutura urbana |
+| **Problema, em uma frase** | Dificuldade e morosidade dos cidadãos em reportar e acompanhar a resolução de problemas de infraestrutura pública. |
+| **Como funciona** | Uma REST API onde cidadãos registam ocorrências urbanas e a gestão pública gere, atualiza e acompanha o ciclo de vida de cada reparo em tempo real. |
+| **O que cada parte faz** | **Controller:** Recebe as requisições HTTP (`GET`, `GET{ID}` `POST`, `PUT`, `DELETE`) e expõe os endpoints.<br>**Service:** Executa as regras de negócio e validações.<br>**Repository:** Comunica com a base de dados H2 via Spring Data JPA.<br>**GlobalExceptionHandler:** Trata erros de forma centralizada (ex: `404 Not Found`). |
+| **Link do repositório** | `https://github.com/Kaio14827/zeladoria-api-soa` |
+| **Indicador de impacto** | Redução no tempo de resposta para reparações de infraestrutura e aumento do número de chamados urbanos resolvidos. |
+| **ODS conectados** | **ODS 11** (Cidades e Comunidades Sustentáveis) e **ODS 9** (Indústria, Inovação e Infraestrutura) |
+
+
+
 ## 🛠️ 1. Tecnologias Utilizadas
 > *Principais tecnologias, frameworks e bibliotecas que dão suporte à arquitetura, persistência e segurança do sistema.*
 
